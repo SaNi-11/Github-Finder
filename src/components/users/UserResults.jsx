@@ -28,7 +28,7 @@ function UserResults() {
           <h3>{user.login}</h3>
         ))}
       </div>
-    );
+    )
   } else {
      return <h3>Loading...</h3>
   }
